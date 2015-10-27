@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TicTacToe2</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">TicTacToe</string>
+    <string name="two_player">CHƠI HAI NGƯỜI</string>
+</resources>
+

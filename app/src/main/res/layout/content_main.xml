@@ -1,0 +1,60 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIC TAC TOE"
+        android:layout_marginTop="5dp"
+        android:textColor="#00a772"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tictactoe"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/continueBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIẾP TỤC"
+        android:visibility="gone"
+        android:width="150dp"
+        android:onClick="continueGame"/>
+
+    <Button
+        android:id="@+id/singleBT"
+        android:onClick="singlePlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHƠI VỚI AI"
+        android:width="150dp" />
+
+    <Button
+        android:id="@+id/twoplayerBT"
+        android:onClick="twoPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHƠI 2 NGƯỜI"
+        android:width="150dp"/>
+
+
+    <Button
+        android:id="@+id/exitBT"
+        android:onClick="exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="150dp"
+        android:text="THOÁT"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>
